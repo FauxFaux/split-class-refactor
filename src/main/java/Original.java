@@ -1,10 +1,12 @@
 public class Original {
+    private final left left = new left();
+
     public void alpha() {
-        System.out.println("hi from alpha");
+        left.alpha();
     }
 
     public void beta() {
-        System.out.println("hi from beta");
+        left.beta();
     }
 
     public void gamma() {
