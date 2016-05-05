@@ -3,14 +3,22 @@ public class Original {
     private final Right right = new Right();
 
     public void alpha() {
-        left.alpha();
+        getLeft().alpha();
     }
 
     public void beta() {
-        left.beta();
+        getLeft().beta();
     }
 
     public void gamma() {
-        right.gamma();
+        getRight().gamma();
+    }
+
+    public left getLeft() {
+        return left;
+    }
+
+    public Right getRight() {
+        return right;
     }
 }
