@@ -1,8 +1,8 @@
 public class User {
     Original o;
     void one() {
-        o.alpha();
-        o.beta();
-        o.gamma();
+        o.getLeft().alpha();
+        o.getLeft().beta();
+        o.getRight().gamma();
     }
 }
